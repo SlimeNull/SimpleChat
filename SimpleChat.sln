@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleChatServer", "SimpleChatServer\SimpleChatServer.csproj", "{72C6A606-AC1E-4C98-94AD-B7FAB98BFEBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleChatWpfClient", "SimpleChatWpfClient\SimpleChatWpfClient.csproj", "{88D9FAA2-C7EB-4139-AB1F-B1659479BE14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C6A606-AC1E-4C98-94AD-B7FAB98BFEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C6A606-AC1E-4C98-94AD-B7FAB98BFEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C6A606-AC1E-4C98-94AD-B7FAB98BFEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C6A606-AC1E-4C98-94AD-B7FAB98BFEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D9FAA2-C7EB-4139-AB1F-B1659479BE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D9FAA2-C7EB-4139-AB1F-B1659479BE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D9FAA2-C7EB-4139-AB1F-B1659479BE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D9FAA2-C7EB-4139-AB1F-B1659479BE14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3B81577-1911-462A-BD42-ED40DBE9BCD1}
+	EndGlobalSection
+EndGlobal

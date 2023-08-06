@@ -1,0 +1,13 @@
+﻿<Window x:Class="SimpleChatWpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleChatWpfClient"
+        xmlns:webview="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="SimpleChat" Height="450" Width="800" Icon="/logo-b4d84077.png">
+    <Grid>
+        <webview:WebView2 Name="webView2"  Loaded="webView2_Loaded"/>
+    </Grid>
+</Window>
